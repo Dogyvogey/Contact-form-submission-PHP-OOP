@@ -25,7 +25,7 @@ Name: " . $_POST['name'] . "
 Subject: " . $_POST['subject'] . "
 Message: " . $_POST['message'] . "
 
-<p>Powered By: Dogy Vogey PHP OOP Email <a href='https://github.com/Dogyvogey'>View Projet</a></p>";
+<p>Powered By: Dogy Vogey PHP OOP Email <a href='https://github.com/Dogyvogey/Contact-form-submission-PHP-OOP'>View Projet</a></p>";
 
 //SendMail
 $email->sendMail();
