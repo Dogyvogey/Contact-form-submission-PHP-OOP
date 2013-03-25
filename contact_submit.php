@@ -16,7 +16,7 @@ $email = new ContactSubmit();
 
 //Collect Pramaters
 $email->from = $_POST['email'];
-$email->sendTo = "vogey@dogyvogey.com";
+$email->sendTo = "email@email.com";//Put the email address you want to recive emails on here.
 $email->name = $_POST['name'];
 $email->subject = $_POST['subject'];
 $email->message = "
